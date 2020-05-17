@@ -2,17 +2,17 @@
 (function(window) {
 
 
-    var bye = new Object();
+    var byeSpeaker = new Object();
 
     var word = "Good Bye!";
 
-    bye.speak = function speak(name) {
+    byeSpeaker.speak = function speak(name) {
 
         console.log(word + " " + name);
 
     };
 
-    window.bye = bye;
+    window.byeSpeaker = byeSpeaker;
 
 
 })(window);
