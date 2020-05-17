@@ -10,11 +10,11 @@
 
         if (first === 'j') {
 
-            bye.speak(names[i]);
+            byeSpeaker.speak(names[i]);
 
         } else {
 
-            hello.speak(names[i]);
+            helloSpeaker.speak(names[i]);
 
         }
 
